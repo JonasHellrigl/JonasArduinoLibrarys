@@ -73,6 +73,9 @@ LED.Set_Interval(unsigned long Interval);
 ```
 
 # How to use Delay.h
+delay.h is a Library, that alows you to use a delay in your Code, without stop the whole Code to run
+
+The Library, returns a boolean value, that indicates whether the Time has passed or not
 
 - ### Constructor:
 ```
@@ -80,7 +83,43 @@ Delay delay1 = Delay(unsigned long interval)
 ```
 - ### Usage:
 ```
-delay1.Use_Delay();
+if(delay1.Use_Delay())
+{
+    //Put here the Code
+}
 ```
 
 # How to use Debounce.h
+Debounce.h is a Library, that debounces a Button and has many functions to use
+
+- ### Constructor:
+```
+Debounce button = Debounce(int Pin);
+```
+- ### Usage:
+```
+button.DebounceButton(); //This must be done, so that you can use the functions of the Button
+
+//here you can put the function, that you wanna use
+```
+### functions:
+```
+button.Get_State();
+```
+```
+button.Get_StayingState();
+```
+```
+button.Get_Counter();
+```
+
+- ### Other functions:
+```
+button.Set_DebounceTime(uint32_t DebounceTime);
+```
+```
+button.Set_Counter(int counter);
+```
+```
+button.Reset_Counter();
+```
