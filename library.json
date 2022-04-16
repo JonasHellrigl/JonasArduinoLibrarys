@@ -11,8 +11,8 @@
   [
     {
       "name": "Jonas Hellrigl",
-      "email": "hellrigl.jonas@gmail.com",
-    },
+      "email": "hellrigl.jonas@gmail.com"
+    }
   ],
   "license": "GNU",
   "frameworks": "arduino",
