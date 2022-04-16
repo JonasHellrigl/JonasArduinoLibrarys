@@ -15,6 +15,7 @@
     },
   ],
   "license": "GNU",
-  "frameworks": "arduino"
+  "frameworks": "arduino",
+  "platforms": "atmelavr",
   "headers": ["Blink.h", "Debounce.h", "Delay.h", "Fade.h", "UltrasonicSensor.h"]
 }
