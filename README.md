@@ -5,7 +5,7 @@ A Botch Arduino Library which makes no sense
 To include the library in your Arduino Project just copy this into your platform.io file
 ```
 >lib_deps = 
-    https://github.com/menga-team/menguino.git
+    https://github.com/JonasHellrigl/jonas-blink-library
 ```
 You also have to write the following at the start of your code, to use the Library
 ```
