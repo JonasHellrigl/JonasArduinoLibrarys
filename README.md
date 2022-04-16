@@ -71,3 +71,16 @@ LED.FadeLED();
 ```
 LED.Set_Interval(unsigned long Interval);
 ```
+
+# How to use Delay.h
+
+- ### Constructor:
+```
+Delay delay1 = Delay(unsigned long interval)
+```
+- ### Usage:
+```
+delay1.Use_Delay();
+```
+
+# How to use Debounce.h
