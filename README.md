@@ -4,7 +4,7 @@ Some Botched Arduino Librarys that don't make sense and are made by an TFO'ler
 # Include
 To include the librarys into your Arduino Project just copy this into your platform.io file
 ```
->lib_deps = 
+lib_deps = 
     https://github.com/JonasHellrigl/jonas-arduino-librarys.git
 ```
 You also need to write the following at the start of your code, depending on which library you want to use
