@@ -24,15 +24,15 @@ Blink.h contains 2 types of blinking
 This type of blinking, has a constant interval, that it blinks in
 
 - ### Constructor: 
-```
+```ruby
 Blink LED = Blink(int Pin, unsigned long Interval);
 ```
 - ### Usage:
-```
+```ruby
 LED.BlinkInfinite();
 ```
 - ### Other functions:
-```
+```ruby
 LED.Set_IntervalInfinite(unsigned long interval);
 ```
 
@@ -40,15 +40,15 @@ LED.Set_IntervalInfinite(unsigned long interval);
 This type of blinking, has a given amount of blinking and a given HIGH and LOW time
 
 - ### Constructor: 
-```
+```ruby
 Blink LED = Blink(int pin, unsigned long durationHIGH, unsigned long durationLOW, int quantityBlink);
 ```
 - ### Usage:
-```
+```ruby
 LED.BlinkQuantity();
 ```
 - ### Other functions:
-```
+```ruby
 LED.Set_QuantityBlink(int quantityBlink);
 ```
 
@@ -60,15 +60,15 @@ It starts at LOW and slowly increases the brightness by +15
 When the Brightness is at 255, the Brightness decreases by -15 until it is at 0
 
 - ### Constructor: (it must be a PWM Pin)
-```
+```ruby
 Fade LED = Fade(int Pin, unsigned long Interval);
 ```
 - ### Usage:
-```
+```ruby
 LED.FadeLED();
 ```
 - ### Other functions:
-```
+```ruby
 LED.Set_Interval(unsigned long Interval);
 ```
 
@@ -78,11 +78,11 @@ Delay.h is a Library, that alows you to use a delay in your Code, without stopin
 The Library, returns a boolean value, that indicates whether the Time has passed or not
 
 - ### Constructor:
-```
+```ruby
 Delay delay1 = Delay(unsigned long interval);
 ```
 - ### Usage:
-```
+```ruby
 if(delay1.Use_Delay())
 {
     //Put here the Code
@@ -93,33 +93,33 @@ if(delay1.Use_Delay())
 Debounce.h is a Library, that debounces a Button and has many functions to use
 
 - ### Constructor:
-```
+```ruby
 Debounce button = Debounce(int Pin);
 ```
 - ### Usage:
-```
+```ruby
 button.DebounceButton(); //This must be done, so that you can use the functions of the Button
 
 //here you can put the function, that you wanna use
 ```
 ### functions:
-```
+```ruby
 button.Get_State();
 ```
-```
+```ruby
 button.Get_StayingState();
 ```
-```
+```ruby
 button.Get_Counter();
 ```
 
 - ### Other functions:
-```
+```ruby
 button.Set_DebounceTime(uint32_t DebounceTime);
 ```
-```
+```ruby
 button.Set_Counter(int counter);
 ```
-```
+```ruby
 button.Reset_Counter();
 ```
