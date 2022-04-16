@@ -123,3 +123,15 @@ button.Set_Counter(int counter);
 ```ruby
 button.Reset_Counter();
 ```
+
+# How to use UltrasonicSensor.h
+UltrasonicSensor.h is a library, that measures the Distance from a UltrasonicSensor and returns it in cm
+
+- ### Constructor: 
+```ruby
+UltrasonicSensor Sensor = UltrasonicSensor(int echoPin, int triggerPin);
+```
+- ### Usage:
+```ruby
+long distance = Sensor.Use_UltrasonicSensor();
+```
