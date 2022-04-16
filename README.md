@@ -5,7 +5,7 @@ Some Botched Arduino Librarys that don't make sense made by an TFO'ler
 To include the librarys into your Arduino Project just copy this into your platform.io file
 ```
 >lib_deps = 
-    https://github.com/JonasHellrigl/jonas-blink-library
+    https://github.com/JonasHellrigl/jonas-arduino-librarys.git
 ```
 You also need to write the following at the start of your code, depending on which library you want to use
 
@@ -19,7 +19,7 @@ Debounce Button Library: ```#include <Debounce.h>```
 
 
 # How to use Blink.h
-The Library contains 2 types of blinking
+Blink.h contains 2 types of blinking
 ## 1) Blinking Infinite
 This type of blinking, has a constant interval, that it blinks in
 
@@ -41,7 +41,7 @@ This type of blinking, has a given amount of blinking and a given HIGH and LOW t
 
 - ### Constructor: 
 ```
-Blink LED = Blink(int pin, unsigned long durationHIGH, unsigned long durationLOW, int quantityBlink)
+Blink LED = Blink(int pin, unsigned long durationHIGH, unsigned long durationLOW, int quantityBlink);
 ```
 - ### Usage:
 ```
@@ -53,11 +53,11 @@ LED.Set_QuantityBlink(int quantityBlink);
 ```
 
 # How to use Fade.h
-Fade.h fades a LED in a given Interval.
+Fade.h fades a LED in a given Interval
 
-It starts at LOW and slowly increases the brightness by +15.
+It starts at LOW and slowly increases the brightness by +15
 
-When the Brightness is at 255, the Brightness decreases by -15;
+When the Brightness is at 255, the Brightness decreases by -15 until it is at 0
 
 - ### Constructor: (it must be a PWM Pin)
 ```
@@ -73,13 +73,13 @@ LED.Set_Interval(unsigned long Interval);
 ```
 
 # How to use Delay.h
-delay.h is a Library, that alows you to use a delay in your Code, without stop the whole Code to run
+Delay.h is a Library, that alows you to use a delay in your Code, without stoping the whole Code to run
 
 The Library, returns a boolean value, that indicates whether the Time has passed or not
 
 - ### Constructor:
 ```
-Delay delay1 = Delay(unsigned long interval)
+Delay delay1 = Delay(unsigned long interval);
 ```
 - ### Usage:
 ```
