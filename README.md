@@ -52,6 +52,13 @@ LED.BlinkQuantity();
 ```ruby
 LED.Set_QuantityBlink(int quantityBlink);
 ```
+```ruby
+LED.Set_DurationHIGH(int DurationHIGH);
+```
+```ruby
+LED.Set_DurationLOW(int DurationLOW);
+```
+
 
 # How to use Fade.h
 Fade.h fades a LED in a given Interval
