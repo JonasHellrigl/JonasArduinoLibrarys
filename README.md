@@ -1,5 +1,5 @@
 # jonas-arduino-librarys
-Some Botched Arduino Librarys that don't make sense
+Some Botched Arduino Librarys that don't make sense made by an TFO'ler
 
 # Include
 To include the librarys into your Arduino Project just copy this into your platform.io file
@@ -30,6 +30,11 @@ Blink LED = Blink(int Pin, unsigned long Interval);
 ```
 LED.BlinkInfinite();
 ```
+- ### Other functions:
+```
+LED.Set_IntervalInfinite(unsigned long interval);
+```
+
 ## 2) Blinking an amount of times
 This type of blinking, has a given amount of blinking and a given HIGH and LOW time
 - ### Constructor: 
@@ -40,3 +45,9 @@ Blink LED = Blink(int pin, unsigned long durationHIGH, unsigned long durationLOW
 ```
 LED.BlinkQuantity();
 ```
+- ### Other functions:
+```
+LED.Set_QuantityBlink(int quantityBlink);
+```
+
+# How to use Fade.h
