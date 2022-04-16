@@ -81,7 +81,7 @@ LED.Set_Interval(unsigned long Interval);
 ```
 
 # How to use Delay.h
-Delay.h is a Library, that alows you to use a delay in your Code, without stoping the whole Code to run
+Delay.h is a Library, that alows you to use a delay in your Code, without stoping the whole Code to run (in ms)
 
 The Library, returns a boolean value, that indicates whether the Time has passed or not
 
