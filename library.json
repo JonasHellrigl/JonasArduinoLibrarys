@@ -11,7 +11,8 @@
   [
     {
       "name": "Jonas Hellrigl",
-      "email": "hellrigl.jonas@gmail.com"
+      "email": "hellrigl.jonas@gmail.com",
+      "url": "https://jonashellrigl.com"
     }
   ],
   "license": "AGPL-3.0-or-later",
