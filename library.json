@@ -1,0 +1,19 @@
+{
+  "name": "jonas-arduino-librarys",
+  "version": "1.0.0",
+  "description": "Some Botched Arduino Librarys that don't make sense and are made by an TFO'ler",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/JonasHellrigl/jonas-arduino-librarys.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jonas Hellrigl",
+      "email": "hellrigl.jonas@gmail.com",
+    },
+  ],
+  "license": "GNU",
+  "frameworks": "Arduino Framework"
+}
