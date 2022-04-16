@@ -15,6 +15,6 @@
     },
   ],
   "license": "GNU",
-  "frameworks": "Arduino Framework"
+  "frameworks": "arduino"
   "headers": ["Blink.h", "Debounce.h", "Delay.h", "Fade.h", "UltrasonicSensor.h"]
 }
