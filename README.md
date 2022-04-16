@@ -9,13 +9,13 @@ To include the librarys into your Arduino Project just copy this into your platf
 ```
 You also need to write the following at the start of your code, depending on which library you want to use
 
-Blink Library: ```#include <Blink.h>```
+Blink Library: ```#include <Blink.h>``` https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-blinkh
 
-Fade Library: ```#include <Fade.h>```
+Fade Library: ```#include <Fade.h>``` https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-fadeh
 
-Delay Library: ```#include <Delay.h>```
+Delay Library: ```#include <Delay.h>``` https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-delayh
 
-Debounce Button Library: ```#include <Debounce.h>```
+Debounce Button Library: ```#include <Debounce.h>``` https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-debounceh
 
 
 # How to use Blink.h
