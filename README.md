@@ -50,7 +50,7 @@ LED.BlinkQuantity();
 ```
 - ### Other functions:
 ```ruby
-LED.Set_QuantityBlink(int quantityBlink);
+LED.Set_QuantityBlink(int QuantityBlink);
 ```
 ```ruby
 LED.Set_DurationHIGH(int DurationHIGH);
