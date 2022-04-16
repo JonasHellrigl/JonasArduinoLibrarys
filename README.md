@@ -17,7 +17,7 @@ You also need to write the following at the start of your code, depending on whi
 
 [Debounce Button Library:](https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-debounceh) ```#include <Debounce.h>```
 
-[UltraSonicSensor:](https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-ultrasonicsensorh) ```#include <UltraSonicSensor.h>```
+[UltrasonicSensor:](https://github.com/JonasHellrigl/jonas-arduino-librarys/blob/main/README.md#how-to-use-ultrasonicsensorh) ```#include <UltrasonicSensor.h>```
 
 # How to use Blink.h
 Blink.h contains 2 types of blinking
