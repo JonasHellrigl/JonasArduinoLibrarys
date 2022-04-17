@@ -10,6 +10,7 @@ private:
     bool _DelayPassed;
 
 public:
+    // Constructor
     Delay(unsigned long interval)
     {
         _interval = interval;
@@ -29,6 +30,11 @@ public:
             _DelayPassed = false;
         }
         return _DelayPassed;
+    }
+
+    void Set_Delay(int delay)
+    {
+        _interval = delay;
     }
 };
 #endif
