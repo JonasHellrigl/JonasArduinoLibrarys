@@ -96,6 +96,10 @@ if(delay1.Use_Delay())
     //Put here the Code
 }
 ```
+- ### Other functions:
+```ruby
+delay1.Set_Delay(unsigned long delay);
+```
 
 # How to use Debounce.h
 Debounce.h is a Library, that debounces a Button and has many functions to use
