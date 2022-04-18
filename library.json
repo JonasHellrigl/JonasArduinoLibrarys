@@ -1,7 +1,7 @@
 {
   "name": "jonas-arduino-librarys",
   "version": "1.0.3",
-  "description": "Some Botched Arduino Librarys that don't make sense and are made by an TFO'ler",
+  "description": "Some Botched Arduino Librarys",
   "repository":
   {
     "type": "git",
