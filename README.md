@@ -1,5 +1,5 @@
 # jonas-arduino-librarys
-Some Botched Arduino Librarys that don't make sense and are made by an TFO'ler
+Some Botched Arduino Librarys
 
 # Include
 To include the librarys into your Arduino Project just copy this into your platform.io file
