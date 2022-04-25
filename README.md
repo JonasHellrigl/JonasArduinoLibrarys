@@ -87,11 +87,11 @@ The Library, returns a boolean value, that indicates whether the Time has passed
 
 - ### Constructor:
 ```ruby
-Delay delay1 = Delay(unsigned long interval);
+Delay delay1 = Delay();
 ```
 - ### Usage:
 ```ruby
-if(delay1.Use_Delay())
+if(delay1.Use_Delay(unsigned long delay))
 {
     //Put here the Code
 }
