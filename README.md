@@ -5,7 +5,7 @@ Some Botched Arduino Librarys
 To include the librarys into your Arduino Project just copy this into your platform.io file
 ```
 lib_deps = 
-    jonhel/jonas-arduino-librarys@^1.0.5
+    jonhel/jonas-arduino-librarys@^1.0.6
 ```
 You also need to write the following at the start of your code, depending on which library you want to use
 
