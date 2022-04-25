@@ -6,21 +6,22 @@ class Delay
 {
 private:
     unsigned long _lastChange;
-    unsigned long _interval;
+    unsigned long _delay;
     bool _DelayPassed;
 
 public:
     // Constructor
-    Delay(unsigned long interval)
+    Delay()
     {
-        _interval = interval;
+        _delay = 0;
         _lastChange = millis();
         _DelayPassed = false;
     }
 
-    bool Use_Delay()
+    bool Use_Delay(unsigned long delay)
     {
-        if (_interval < millis() - _lastChange)
+        _delay = delay;
+        if (_delay < millis() - _lastChange)
         {
             _lastChange = millis();
             _DelayPassed = true;
@@ -34,7 +35,7 @@ public:
 
     void Set_Delay(unsigned long delay)
     {
-        _interval = delay;
+        _delay = delay;
     }
 };
 #endif
